@@ -1,0 +1,11 @@
+{
+  "name": "edx-paradigms-of-computer-programming",
+  "version": "1.0.0",
+  "description": "Some code implementations for the Edx - Paradigms of Computer Programming course in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Araújo",
+  "license": "ISC"
+}
