@@ -18,22 +18,22 @@ let power = (x, n) => {
 
 // Tests
 test('3^2', (assert) => {
-  assert.equals(9, power(3, 2))
+  assert.equals(power(3, 2), 9)
   assert.end();
 })
 
 
 test('10^3', (assert) => {
-  assert.equals(1000, power(10, 3))
+  assert.equals(power(10, 3), 1000)
   assert.end();
 })
 
 test('32^7', (assert) => {
-  assert.equals(34359738368, power(32, 7))
+  assert.equals(power(32, 7), 34359738368)
   assert.end();
 })
 
 test('7^13', (assert) => {
-  assert.equals(96889010407, power(7, 13))
+  assert.equals(power(7, 13), 96889010407)
   assert.end();
 })
